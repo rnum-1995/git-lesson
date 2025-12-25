@@ -11,6 +11,75 @@
 <body>
     <h1>Gitの練習</h1>
     <p>お腹がすいた</p>
+
+    <!-- ul>li{li-$}*5 -->
+    <p>li-3だけ、文字の色を赤に</p>
+    <ul>
+        <li>li-1</li>
+        <li>li-2</li>
+        <li>li-3</li>
+        <li>li-4</li>
+        <li>li-5</li>
+    </ul>
+
+    <section class="sec01">
+        <h2>何番目系疑似クラス</h2>
+        <p>para1</p>
+        <ul>
+            <li>li-1</li>
+            <li>li-2</li>
+            <li>li-3</li>
+        </ul>
+        <ul>
+            <li>li-4</li>
+            <li>li-5</li>
+            <li>li-6</li>
+        </ul>
+
+        <div class="div01">
+            <p>para2</p>
+            <p>para3</p>
+        </div>
+    </section>
+
+    <section class="sec02">
+        <form action="#" method="post">
+            <label for="user_name">
+                <p>
+                    <span>お名前</span>
+                    <input type="text" name="user_name" id="user_name" required>
+                </p>
+            </label>
+            <label for="user_email">
+                <p>
+                    <span>メールアドレス</span>
+                    <input type="email" name="user_email" id="user_email" required>
+                </p>
+            </label>
+            <p>
+                性別
+                <label for="gender">
+                    <input type="radio" name="gender" id="gender1" value="1" checked="checked">男性
+                </label>
+                <label for="gender2">
+                    <input type="radio" name="gender" id="gender2" value="2">女性
+                </label>
+                <label for="gender3">
+                    <input type="radio" name="gender" id="gender3" value="3">その他
+                </label>
+            </p>
+            <label for="message">
+                <p>
+                    お問い合わせ内容
+                    <textarea name="message" id="message"></textarea>
+                </p>
+            </label>
+            <p>
+                <input type="submit" value="送信" disabled>
+            </p>
+        </form>
+    </section>
+
 </body>
 
 </html>
