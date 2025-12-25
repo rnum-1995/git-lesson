@@ -21,7 +21,7 @@
 
 body {
     /* カスタムプロパティの利用：「var(カスタムプロパティ名)→variable由来」 */
-    background-color: pink;
+    background-color: orange;
 }
 
 /* li-3だけ、文字の色を赤に変更してください */
